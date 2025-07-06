@@ -2,12 +2,12 @@ const express = require("express");
 const app = express();
 const { exec, execSync } = require('child_process');
 const port = process.env.SERVER_PORT || process.env.PORT || 3000;        
-const UUID = process.env.UUID || '59c63d49-88da-4236-b1d8-cd409e4b1e9d'; //
-const NEZHA_SERVER = process.env.NEZHA_SERVER || '';     
-const NEZHA_PORT = process.env.NEZHA_PORT || '';                     //
+const UUID = process.env.UUID || '0efabfbf-e957-4f56-88de-49d5c83b5aa9'; //
+const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.siginaak.cf';     
+const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   //
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || '';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || '';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choero0706.xiaopang.cfd';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"bb5abf77094626b385e7dabd57d88a43","TunnelSecret":"4RSMdvdk8H8Ono6FPBiheFM3RcPFPX3jhH2Tu50n+eA=","TunnelID":"028a78bd-3b29-450c-8d2e-ea0db22c4b6b","Endpoint":""}';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo-US';
 
