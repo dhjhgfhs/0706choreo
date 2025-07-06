@@ -7,7 +7,7 @@ const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.siginaak.cf';
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   //
 const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choero0706.xiaopang.cfd';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || '{"AccountTag":"bb5abf77094626b385e7dabd57d88a43","TunnelSecret":"4RSMdvdk8H8Ono6FPBiheFM3RcPFPX3jhH2Tu50n+eA=","TunnelID":"028a78bd-3b29-450c-8d2e-ea0db22c4b6b","Endpoint":""}';
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmI1YWJmNzcwOTQ2MjZiMzg1ZTdkYWJkNTdkODhhNDMiLCJ0IjoiMjc2ZWYwNDEtOTNhOS00N2RlLTgzODMtNjgwZTk2YWU2YmNjIiwicyI6Ik0yUTRPVEU0TWprdFl6Y3lNQzAwWkRreUxUZzVaRFV0WmpGbFlXWmhPV1F4WkRFeCJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo-US';
 
