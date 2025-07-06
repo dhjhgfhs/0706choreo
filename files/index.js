@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '0efabfbf-e957-4f56-88de-49d5c83b5aa9'; //
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nezha.siginaak.cf';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     //
 const NEZHA_KEY = process.env.NEZHA_KEY || '';   //
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choero0707.xiaopang.cfd';     //
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmI1YWJmNzcwOTQ2MjZiMzg1ZTdkYWJkNTdkODhhNDMiLCJ0IjoiMjc2ZWYwNDEtOTNhOS00N2RlLTgzODMtNjgwZTk2YWU2YmNjIiwicyI6Ik0yUTRPVEU0TWprdFl6Y3lNQzAwWkRreUxUZzVaRFV0WmpGbFlXWmhPV1F4WkRFeCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'ch0705.qqvps.top';     //
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiYmI1YWJmNzcwOTQ2MjZiMzg1ZTdkYWJkNTdkODhhNDMiLCJ0IjoiOTYxOGU2YjMtY2M2MC00MzVlLThlNjctMDNiZDlmYWZkZmU5IiwicyI6Ik9EQmtZVEkzTnpjdFpqVTRZUzAwT1dVMkxXSmhaREl0WVRRM1pHUXlNRGxoTUdGaSJ9';
 const CFIP = process.env.CFIP || 'www.visa.com.tw';
 const NAME = process.env.NAME || 'Choreo-US';
 
